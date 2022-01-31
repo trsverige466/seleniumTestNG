@@ -36,9 +36,9 @@ public class C02_Basicauthentication {
     @Test
     public void authenticationTesti(){
         //2- https://the-internet.herokuapp.com/basic_auth sayfasina gidin
+
         // driver.get("https://the-internet.herokuapp.com/basic_auth");
         //3- asagidaki yontem ve test datalarini kullanarak authentication’i yapin
-        //
         //	Html komutu : https://username:password@URL
         //	Username     : admin
         // 	password      : admin
@@ -57,6 +57,7 @@ public class C02_Basicauthentication {
 
     @AfterClass
     public void teardown(){
+
         driver.close();
     }
 }
